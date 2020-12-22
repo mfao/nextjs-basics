@@ -28,7 +28,7 @@ export default function Layout({ children, home }) {
 				{home ? (
 					<>
 						<img
-							src="http://h2689247.stratoserver.net:3000/images/profile.jpg"
+							src="/images/profile.jpg"
 							className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
 							alt={name}
 						/>
@@ -39,7 +39,7 @@ export default function Layout({ children, home }) {
 						<Link href="/">
 							<a>
 								<img
-									src="http://h2689247.stratoserver.net:3000/images/profile.jpg"
+									src="/images/profile.jpg"
 									className={`${styles.headerImage} ${utilStyles.borderCircle}`}
 									alt={name}
 								/>
